@@ -13,6 +13,6 @@ public class Dog implements AnimalBehaviour{
 
     @Override
     public void makeSound() {
-        System.out.println("Woof woof");
+        System.out.println("Woof");
     }
 }
