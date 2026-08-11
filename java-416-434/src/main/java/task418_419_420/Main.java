@@ -1,4 +1,4 @@
-package task418_419;
+package task418_419_420;
 
 import java.util.Scanner;
 
@@ -21,6 +21,12 @@ public class Main {
         System.out.print("Enter plate: ");
         toyota.plate=sc.nextLine().strip();
         toyota.drive();
+
+        //task420
+        System.out.print("did you attend the session? ");
+        String answer =sc.nextLine().strip().toLowerCase();
+        if (answer=="yes") System.out.println("used ==");
+        if (answer.equals("yes")) System.out.println("used equals()");
 
         //close scanner
         sc.close();
