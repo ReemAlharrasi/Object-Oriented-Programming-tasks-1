@@ -1,4 +1,4 @@
-package task422;
+package task422_423;
 
 public class Dog implements AnimalBehaviour{
     @Override
