@@ -1,11 +1,10 @@
-package task426_427_428;
+package task426_427_428_429;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
-
-    void main(){
+    void main() {
         List<Payment> paymentsList = new ArrayList<>();
 
         CashPayment cash = new CashPayment();
@@ -17,8 +16,13 @@ public class Main {
         PayPalPayment paypal = new PayPalPayment();
         paymentsList.add(paypal);
 
-        for (Payment pay: paymentsList){
+        for (Payment pay : paymentsList) {
             pay.process();
         }
+
+        //task429
+        cash.accept("12");
+        cash.accept((long) 12);
+        cash.accept((int) 12);
     }
 }
