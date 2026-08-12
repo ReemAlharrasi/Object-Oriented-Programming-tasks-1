@@ -1,0 +1,6 @@
+polymorphism is reusing methods same method name,
+just change number of parameters or change parameter type
+polymorphism is also method overriding.
+an example is having parent class: animal with method makeSound() that return ""
+a child class dog will override the method and make it return "woof",
+child class cat will overrise it and make it reruen "meow"
