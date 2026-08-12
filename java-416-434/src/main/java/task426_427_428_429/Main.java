@@ -11,7 +11,6 @@ public class Main {
         CashPayment cash = new CashPayment();
         paymentsList.add(cash);
 
-
         CardPayment card = new CardPayment();
         paymentsList.add(card);
 
